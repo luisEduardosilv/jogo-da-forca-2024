@@ -83,10 +83,10 @@
             Console.WriteLine($" |        {pernaEsquerda}{pernaDireita}      ");
             Console.WriteLine(" | ");
             Console.WriteLine(" | ");
-            Console.WriteLine(" |_");
+            Console.Write(" |_      ");
+            Console.WriteLine(palavraEscondida);
             Console.WriteLine($"Tentativas restantes: {limite - tentativaAtual}");
             Console.WriteLine($"Letras já testadas: {string.Join(", ", letrasErradas)}");
-            Console.WriteLine(palavraEscondida);
         }
     }
 }
